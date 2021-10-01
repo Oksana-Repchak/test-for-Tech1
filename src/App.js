@@ -1,24 +1,68 @@
-import logo from './logo.svg';
-import './App.css';
+import { Switch, Route } from 'react-router-dom';
+
+import Wrapper from './components/Wrapper';
+import AppBar from './components/AppBar';
+import DashboardView from './views/DashboardView';
+import InstancesView from './views/InstancesView';
+import PairsView from './views/PairsView';
+import AboutView from './views/AboutView';
+import HelpView from './views/HelpView';
+import ContactView from './views/ContactView';
+import NotFoundView from './views/NotFoundView';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Wrapper>
+      <AppBar />
+
+      <Switch>
+        <Route path="/" exact>
+          <DashboardView />
+        </Route>
+
+        <Route path="/instances">
+          <InstancesView />
+        </Route>
+
+        <Route path="/pairs">
+          <PairsView />
+        </Route>
+
+        <Route path="/about">
+          <AboutView />
+        </Route>
+
+        <Route path="/help">
+          <HelpView />
+        </Route>
+
+        <Route path="/contact">
+          <ContactView />
+        </Route>
+
+        <Route>
+          <NotFoundView />
+        </Route>
+      </Switch>
+
+      {/* <Switch>
+        <PublicRoute path="/" exact>
+          <HomeView />
+        </PublicRoute>
+
+        <PublicRoute path="/register" restricted redirectTo="/contacts">
+          <RegisterView />
+        </PublicRoute>
+
+        <PublicRoute path="/login" restricted redirectTo="/contacts">
+          <LoginView />
+        </PublicRoute>
+
+        <PrivateRoute path="/contacts" redirectTo="/login">
+          <ContactsView />
+        </PrivateRoute>
+      </Switch> */}
+    </Wrapper>
   );
 }
 
