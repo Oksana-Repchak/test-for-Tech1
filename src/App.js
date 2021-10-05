@@ -11,6 +11,14 @@ import ContactView from './views/ContactView';
 import NotFoundView from './views/NotFoundView';
 
 function App() {
+  // state = {
+  //   value: '',
+  // };
+
+  // handleChange = e => {
+  //   this.setState({ value: e.target.value });
+  // };
+
   return (
     <Wrapper>
       <AppBar />

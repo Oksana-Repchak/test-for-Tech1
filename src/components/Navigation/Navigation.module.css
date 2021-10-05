@@ -1,10 +1,28 @@
 .link {
+  position: relative;
   display: inline-block;
   text-decoration: none;
-  padding: 15px;
+  padding-bottom: 5px;
   font-weight: 700;
-  color: #2a363b;
+  color: rgba(190, 185, 185, 0.521);
 }
+
+.link:not(:last-child) {
+  margin-right: 20px;
+}
+
 .activeLink {
-  color: #e84a5f;
+  color: #fff;
+}
+
+.activeLink::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 5px;
+  border-radius: 2px;
+  background-color: rgb(2, 255, 242);
 }

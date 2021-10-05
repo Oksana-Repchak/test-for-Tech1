@@ -3,10 +3,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #000;
 }
 
-.title {
-  font-weight: 500;
-  font-size: 48px;
-  text-align: center;
+.dashboardFilter {
+  background-color: #fff;
+  min-width: 500px;
+  min-height: 200px;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: 0 0 10px 5px rgb(88, 88, 88);
+}
+
+.dashboardProfit {
+  background-color: #fff;
+  border-radius: 5px;
+  min-width: 240px;
+  min-height: 90px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px 5px rgb(88, 88, 88);
+}
+
+.instances {
+  background-color: #fff;
+  border-radius: 5px;
+  min-width: 240px;
+  min-height: 90px;
+  box-shadow: 0 0 10px 5px rgb(88, 88, 88);
 }
