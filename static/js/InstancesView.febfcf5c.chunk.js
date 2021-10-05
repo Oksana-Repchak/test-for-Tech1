@@ -1,0 +1,2 @@
+(this["webpackJsonptest-for-tech1"]=this["webpackJsonptest-for-tech1"]||[]).push([[3],{33:function(t,e,n){t.exports={container:"InstancesView_container__1OrvG",title:"InstancesView_title__2PpdI"}},38:function(t,e,n){"use strict";n.r(e),n.d(e,"default",(function(){return a}));var s=n(33),c=n.n(s),i=n(1),a=function(){return Object(i.jsx)("div",{className:c.a.container,children:Object(i.jsx)("h1",{className:c.a.title,children:"InstancesView"})})}}}]);
+//# sourceMappingURL=InstancesView.febfcf5c.chunk.js.map

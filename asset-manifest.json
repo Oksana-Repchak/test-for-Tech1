@@ -1,20 +1,40 @@
 {
   "files": {
-    "main.css": "/test-for-tech1/static/css/main.b67beaa1.chunk.css",
-    "main.js": "/test-for-tech1/static/js/main.8c9de3c9.chunk.js",
-    "main.js.map": "/test-for-tech1/static/js/main.8c9de3c9.chunk.js.map",
-    "runtime-main.js": "/test-for-tech1/static/js/runtime-main.5d271470.js",
-    "runtime-main.js.map": "/test-for-tech1/static/js/runtime-main.5d271470.js.map",
-    "static/js/2.bd52bd3d.chunk.js": "/test-for-tech1/static/js/2.bd52bd3d.chunk.js",
-    "static/js/2.bd52bd3d.chunk.js.map": "/test-for-tech1/static/js/2.bd52bd3d.chunk.js.map",
+    "AboutView.css": "/test-for-tech1/static/css/AboutView.7cca2356.chunk.css",
+    "AboutView.js": "/test-for-tech1/static/js/AboutView.d59d24b1.chunk.js",
+    "AboutView.js.map": "/test-for-tech1/static/js/AboutView.d59d24b1.chunk.js.map",
+    "DashboardView.css": "/test-for-tech1/static/css/DashboardView.95703bf3.chunk.css",
+    "DashboardView.js": "/test-for-tech1/static/js/DashboardView.edf43ef3.chunk.js",
+    "DashboardView.js.map": "/test-for-tech1/static/js/DashboardView.edf43ef3.chunk.js.map",
+    "HelpView.css": "/test-for-tech1/static/css/HelpView.d7a7b2ae.chunk.css",
+    "HelpView.js": "/test-for-tech1/static/js/HelpView.a7124fb8.chunk.js",
+    "HelpView.js.map": "/test-for-tech1/static/js/HelpView.a7124fb8.chunk.js.map",
+    "InstancesView.css": "/test-for-tech1/static/css/InstancesView.3d74c534.chunk.css",
+    "InstancesView.js": "/test-for-tech1/static/js/InstancesView.febfcf5c.chunk.js",
+    "InstancesView.js.map": "/test-for-tech1/static/js/InstancesView.febfcf5c.chunk.js.map",
+    "PairsView.css": "/test-for-tech1/static/css/PairsView.c2b3f6af.chunk.css",
+    "PairsView.js": "/test-for-tech1/static/js/PairsView.c4f9964a.chunk.js",
+    "PairsView.js.map": "/test-for-tech1/static/js/PairsView.c4f9964a.chunk.js.map",
+    "main.css": "/test-for-tech1/static/css/main.c162bb71.chunk.css",
+    "main.js": "/test-for-tech1/static/js/main.acfe9163.chunk.js",
+    "main.js.map": "/test-for-tech1/static/js/main.acfe9163.chunk.js.map",
+    "runtime-main.js": "/test-for-tech1/static/js/runtime-main.0d0c3d20.js",
+    "runtime-main.js.map": "/test-for-tech1/static/js/runtime-main.0d0c3d20.js.map",
+    "static/js/7.510d44ce.chunk.js": "/test-for-tech1/static/js/7.510d44ce.chunk.js",
+    "static/js/7.510d44ce.chunk.js.map": "/test-for-tech1/static/js/7.510d44ce.chunk.js.map",
     "index.html": "/test-for-tech1/index.html",
-    "static/css/main.b67beaa1.chunk.css.map": "/test-for-tech1/static/css/main.b67beaa1.chunk.css.map",
-    "static/js/2.bd52bd3d.chunk.js.LICENSE.txt": "/test-for-tech1/static/js/2.bd52bd3d.chunk.js.LICENSE.txt"
+    "static/css/AboutView.7cca2356.chunk.css.map": "/test-for-tech1/static/css/AboutView.7cca2356.chunk.css.map",
+    "static/css/DashboardView.95703bf3.chunk.css.map": "/test-for-tech1/static/css/DashboardView.95703bf3.chunk.css.map",
+    "static/css/HelpView.d7a7b2ae.chunk.css.map": "/test-for-tech1/static/css/HelpView.d7a7b2ae.chunk.css.map",
+    "static/css/InstancesView.3d74c534.chunk.css.map": "/test-for-tech1/static/css/InstancesView.3d74c534.chunk.css.map",
+    "static/css/PairsView.c2b3f6af.chunk.css.map": "/test-for-tech1/static/css/PairsView.c2b3f6af.chunk.css.map",
+    "static/css/main.c162bb71.chunk.css.map": "/test-for-tech1/static/css/main.c162bb71.chunk.css.map",
+    "static/js/7.510d44ce.chunk.js.LICENSE.txt": "/test-for-tech1/static/js/7.510d44ce.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5d271470.js",
-    "static/js/2.bd52bd3d.chunk.js",
-    "static/css/main.b67beaa1.chunk.css",
-    "static/js/main.8c9de3c9.chunk.js"
+    "static/js/runtime-main.0d0c3d20.js",
+    "static/js/7.510d44ce.chunk.js",
+    "static/css/main.c162bb71.chunk.css",
+    "static/js/main.acfe9163.chunk.js"
   ]
 }
