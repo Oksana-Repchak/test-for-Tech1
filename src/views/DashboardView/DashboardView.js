@@ -80,20 +80,20 @@ const DashboardView = () => {
   };
 
   useEffect(() => {
-    if (location.search !== '') {
-      return;
-    }
-
-    history.push({ ...location, search: `sortBy=usd` });
-  }, [history, location]);
-
-  useEffect(() => {
     setExpenses(prevExpenses =>
       [...prevExpenses].filter(sortBy => {
         return sortOrder === sortBy.exchange;
       }),
     );
   }, [sortOrder]);
+
+  useEffect(() => {
+    if (location.search !== '') {
+      return;
+    }
+
+    history.push({ ...location, search: `sortBy=usd` });
+  }, [history, location]);
 
   return (
     <div className={s.container}>
@@ -103,19 +103,39 @@ const DashboardView = () => {
         <p>Buy advice currency</p>
         <p>Sell advice currency</p>
         {/* <input onChange={e => setName(e.target.value)} /> */}
-        <Table items={expenses} />
+        {expenses && <Table items={expenses} />}
       </div>
       <div className={s.dashboardProfitContainer}>
         <div className={s.dashboardProfit}>
           <p>dashboard profit currency</p>
-          <SortSelector
-            options={sortOptions}
-            onChange={onSortOrderChange}
-            value={sortOrder}
-          />
+          {sortOrder && (
+            <SortSelector
+              options={sortOptions}
+              onChange={onSortOrderChange}
+              value={sortOrder}
+            />
+          )}
+
+          <p>Selected currency will affect all prifit in dashboard</p>
         </div>
 
-        <div className={s.instances}>instances</div>
+        <div className={s.instances}>
+          <p className={s.instancesTitle}>Instances</p>
+          <ul className={s.instancesList}>
+            <li className={s.item}>
+              <p>Most profit instanse</p>
+              <p className={s.desc}>BTS-USD</p>
+            </li>
+            <li className={s.item}>
+              <p>Active instanse</p>
+              <p className={s.desc}>7</p>
+            </li>
+            <li className={s.item}>
+              <p>Total instanse</p>
+              <p className={s.desc}>7</p>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );

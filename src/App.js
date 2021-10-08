@@ -4,6 +4,14 @@ import { lazy, Suspense } from 'react';
 import Wrapper from './components/Wrapper';
 import AppBar from './components/AppBar';
 
+// import DashboardView from './views/DashboardView';
+// import InstancesView from './views/InstancesView';
+// import PairsView from './views/PairsView';
+// import AboutView from './views/AboutView';
+// import HelpView from './views/HelpView';
+// import ContactView from './views/ContactView';
+// import NotFoundView from './views/NotFoundView';
+
 const DashboardView = lazy(() =>
   import('./views/DashboardView' /* webpackChunkName: "DashboardView" */),
 );
